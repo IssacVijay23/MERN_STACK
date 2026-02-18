@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Issac Vijay Kumar Portfolio</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Playfair+Display:wght@600&display=swap');
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+line-height:1.6;
+background:#f5f7fa;
+}
+h1,h2{
+font-family:'Playfair Display',serif;
+letter-spacing:1px;
+text-transform:uppercase;
+text-shadow:1px 1px 3px rgba(0,0,0,0.2);
+}
+p{
+word-spacing:2px;
+text-align:justify;
+}
+
+nav{
+position:sticky;
+top:0;
+background:#111;
+color:#fff;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+nav ul{
+list-style:none;
+margin:0;
+padding:0;
+}
+nav ul li{
+display:inline-block;
+margin:0 10px;
+}
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+nav ul li a:hover{
+text-decoration:underline;
+}
+
+#hero{
+height:80vh;
+background:url("https://via.placeholder.com/1200x600") center/cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:#fff;
+position:relative;
+}
+#hero::before{
+content:"";
+position:absolute;
+inset:0;
+background:rgba(0,0,0,0.5);
+}
+#hero > *{
+position:relative;
+}
+
+.btn{
+padding:12px 20px;
+border-radius:8px;
+border:2px solid #fff;
+background:transparent;
+color:#fff;
+cursor:pointer;
+margin-top:10px;
+display:inline-block;
+transition:0.3s;
+}
+.btn:hover{
+background:#fff;
+color:#000;
+transform:scale(1.05);
+}
+.btn:active{
+transform:scale(0.9);
+}
+.btn:focus{
+outline:3px dashed yellow;
+}
+
+#projects{
+padding:40px;
+}
+.project-container{
+display:flex;
+gap:20px;
+justify-content:center;
+}
+.card{
+width:250px;
+background:#fff;
+border-radius:12px;
+overflow:hidden;
+border:2px solid #ddd;
+padding:10px;
+margin:10px;
+transition:0.3s;
+}
+.card img{
+width:100%;
+height:150px;
+object-fit:cover;
+}
+.card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+.card p::first-letter{
+font-size:20px;
+color:#ff5722;
+}
+.project-container .card:nth-child(2){
+border-color:red;
+}
+
+#about{
+padding:40px;
+}
+#about p::after{
+content:" ★";
+color:#ff9800;
+}
+
+p{color:black;}
+.about-text{color:blue;}
+#about .about-text{color:green;}
+.special{color:red !important;}
+
+.overflow-section{
+display:flex;
+gap:20px;
+padding:20px;
+}
+.box{
+width:200px;
+height:100px;
+border:2px solid black;
+padding:10px;
+}
+.visible{overflow:visible;}
+.hidden{overflow:hidden;}
+.scroll{overflow:scroll;}
+.auto{overflow:auto;}
+
+.inline-text{display:inline;color:red;}
+.block-text{display:block;background:#ddd;}
+.inline-block-text{display:inline-block;padding:5px;background:#ccc;}
+
+#topBtn{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#000;
+color:#fff;
+padding:10px 15px;
+border-radius:50%;
+text-decoration:none;
+}
+
+@media(max-width:768px){
+nav{
+flex-direction:column;
+align-items:flex-start;
+}
+.project-container{
+flex-direction:column;
+align-items:center;
+}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<h3>Issac Vijay</h3>
+<ul>
+<li><a href="#hero">Home</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#about">About</a></li>
+</ul>
+</nav>
+
+<section id="hero">
+<h1>Welcome to My Portfolio</h1>
+<p>Creative Web Designer & Developer</p>
+<button class="btn">View Projects</button>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="project-container">
+
+<div class="card">
+<img src="https://via.placeholder.com/300x200">
+<h3>Food Website</h3>
+<p>Modern food ordering design using HTML and CSS.</p>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300x200">
+<h3>Portfolio Design</h3>
+<p>Responsive personal portfolio layout.</p>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300x200">
+<h3>Pickle Store</h3>
+<p>E-commerce layout for pickle products.</p>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300x200">
+<h3>Cricket Poster</h3>
+<p>Creative tournament poster using web tools.</p>
+</div>
+
+</div>
+</section>
+
+<section id="about">
+<h2>About Me</h2>
+<p class="about-text">
+Hello! I am Issac Vijay Kumar, passionate about creating beautiful web designs.
+I enjoy learning CSS concepts like flexbox, positioning and responsive design.
+</p>
+<p class="about-text special">
+This line uses important rule to override specificity.
+</p>
+</section>
+
+<section>
+<h2 style="padding-left:20px;">Overflow Examples</h2>
+<div class="overflow-section">
+<div class="box visible">overflow visible example with long long long text showing outside box.</div>
+<div class="box hidden">overflow hidden example with long long long text showing outside box.</div>
+<div class="box scroll">overflow scroll example with long long long text showing outside box.</div>
+<div class="box auto">overflow auto example with long long long text showing outside box.</div>
+</div>
+</section>
+
+<section style="padding:20px;">
+<span class="inline-text">Inline Text</span>
+<span class="block-text">Block Text</span>
+<span class="inline-block-text">Inline Block</span>
+</section>
+
+<footer style="text-align:center;padding:20px;background:#111;color:#fff;">
+<p>© 2026 Issac Vijay Portfolio</p>
+</footer>
+
+<a id="topBtn" href="#hero">↑</a>
+
+</body>
+</html>
