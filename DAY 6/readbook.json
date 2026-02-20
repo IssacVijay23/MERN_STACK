@@ -1,0 +1,184 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "status": "read",
+      "rating": 5,
+      "genre": "Self Development",
+      "color": "#4CAF50"
+    },
+    {
+      "id": 2,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "status": "read",
+      "rating": 4,
+      "genre": "Finance",
+      "color": "#2196F3"
+    },
+    {
+      "id": 3,
+      "title": "Ikigai",
+      "author": "Héctor García",
+      "status": "read",
+      "rating": 4,
+      "genre": "Lifestyle",
+      "color": "#E91E63"
+    },
+    {
+      "id": 4,
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "status": "read",
+      "rating": 5,
+      "genre": "Spiritual",
+      "color": "#9C27B0"
+    },
+    {
+      "id": 5,
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "status": "read",
+      "rating": 4,
+      "genre": "Motivation",
+      "color": "#FF5722"
+    },
+    {
+      "id": 6,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "status": "want_to_read",
+      "rating": 0,
+      "genre": "Productivity",
+      "color": "#673AB7"
+    },
+    {
+      "id": 7,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "status": "want_to_read",
+      "rating": 0,
+      "genre": "Fiction",
+      "color": "#FFC107"
+    },
+    {
+      "id": 8,
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "status": "want_to_read",
+      "rating": 0,
+      "genre": "Business",
+      "color": "#3F51B5"
+    },
+    {
+      "id": 9,
+      "title": "Start With Why",
+      "author": "Simon Sinek",
+      "status": "want_to_read",
+      "rating": 0,
+      "genre": "Leadership",
+      "color": "#009688"
+    },
+    {
+      "id": 10,
+      "title": "Can't Hurt Me",
+      "author": "David Goggins",
+      "status": "want_to_read",
+      "rating": 0,
+      "genre": "Biography",
+      "color": "#795548"
+    },
+    {
+      "id": 11,
+      "title": "The 5 AM Club",
+      "author": "Robin Sharma",
+      "status": "read",
+      "rating": 4,
+      "genre": "Self Growth",
+      "color": "#8BC34A"
+    },
+    {
+      "id": 12,
+      "title": "Do Epic Shit",
+      "author": "Ankur Warikoo",
+      "status": "read",
+      "rating": 3,
+      "genre": "Motivation",
+      "color": "#FF9800"
+    },
+    {
+      "id": 13,
+      "title": "Rework",
+      "author": "Jason Fried",
+      "status": "want_to_read",
+      "rating": 0,
+      "genre": "Startup",
+      "color": "#00BCD4"
+    },
+    {
+      "id": 14,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "status": "read",
+      "rating": 5,
+      "genre": "Finance",
+      "color": "#CDDC39"
+    },
+    {
+      "id": 15,
+      "title": "Hooked",
+      "author": "Nir Eyal",
+      "status": "want_to_read",
+      "rating": 0,
+      "genre": "Marketing",
+      "color": "#FF4081"
+    },
+    {
+      "id": 16,
+      "title": "Steve Jobs",
+      "author": "Walter Isaacson",
+      "status": "want_to_read",
+      "rating": 0,
+      "genre": "Biography",
+      "color": "#607D8B"
+    },
+    {
+      "id": 17,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "status": "want_to_read",
+      "rating": 0,
+      "genre": "Programming",
+      "color": "#9E9E9E"
+    },
+    {
+      "id": 18,
+      "title": "You Don't Know JS",
+      "author": "Kyle Simpson",
+      "status": "read",
+      "rating": 5,
+      "genre": "Programming",
+      "color": "#FFEB3B"
+    },
+    {
+      "id": 19,
+      "title": "Ego Is The Enemy",
+      "author": "Ryan Holiday",
+      "status": "read",
+      "rating": 4,
+      "genre": "Philosophy",
+      "color": "#673AB7"
+    },
+    {
+      "id": 20,
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "status": "want_to_read",
+      "rating": 0,
+      "genre": "Self Help",
+      "color": "#F44336"
+    }
+  ]
+}
